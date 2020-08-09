@@ -14,7 +14,7 @@ def add_data(reporter, crime, crime_place, crime_date, victim, crime_description
     conn.commit()
 
 def view_all():
-    c.execute('SECLET * FROM reporttable')
+    c.execute('SELECT * FROM reporttable')
     data = c.fetchall()
     return data
 
