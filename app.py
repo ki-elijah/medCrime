@@ -29,6 +29,8 @@ def main():
 
     if choice == "Home":
         st.subheader("Home")
+        result = view_all()
+        st.write(result)
 
     elif choice == "View Reports":
         st.subheader("View Reports")
