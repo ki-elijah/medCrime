@@ -2,7 +2,7 @@ import streamlit as st
 #db
 import sqlite3
 
-conn = sqlite3.connect(data.db)
+conn = sqlite3.connect('data.db')
 c = conn.cursor()
 
 #fuction
